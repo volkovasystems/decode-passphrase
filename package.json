@@ -1,0 +1,31 @@
+{
+  "name": "decode-passphrase",
+  "version": "0.0.0",
+  "description": "Passphrase decoder based on Shamir's Secret Sharing Algorithm.",
+  "main": "decode-passphrase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/decode-passphrase.git"
+  },
+  "keywords": [
+    "decode-passphrase",
+    "passphrase",
+    "cryptography",
+    "shamir-secret-sharing-algorithm",
+    "decoder"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/decode-passphrase/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/decode-passphrase#readme",
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "secrets.js": "^0.1.8",
+    "xxhashjs": "^0.1.1"
+  }
+}
